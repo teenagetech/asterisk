@@ -1,0 +1,229 @@
+/* Asterisk #199E79
+#F77F00
+#D62828
+#0C66C0
+#C3F73A
+#3a3b3e
+*/
+
+@media screen and (max-width: 500px) {
+    .logo, .logoU {
+        width: 95vw;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .logo, .logoU {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    input[type="text"] {
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    input[type="text"] {
+        width: 860px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    input[type="text"] {
+        width: 90vw;
+    }
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    padding: 0;
+    margin: auto;
+    bottom: calc(50vh + 50px);
+    height: auto;
+}
+.logoU {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    padding: 0;
+    margin: auto;
+    bottom: 70%;
+    height: auto;
+}
+@font-face {
+    font-family: 'JosefinSans-VariableFont_wght';
+    src: url('JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir.ttc') format('truetype');
+}
+.topText {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+html {
+    font-family: 'JosefinSans-VariableFont_wght';
+    background-color: #3a3b3e;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+body {
+    overflow: hidden;
+    -ms-overflow-style: none;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'JosefinSans-VariableFont_wght', sans-serif;
+}
+
+.gsc-input {
+    caret-color: #199E79 !important;
+    text-align: left !important;
+    font-family: 'Avenir' !important;
+    border: none !important;
+    height: 48px !important;
+    width: 70vw !important;
+    font-size: 34px !important;
+    border-radius: 30px !important;
+    outline: none !important;
+    padding-left: 20px !important;
+    padding-right: 10px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.gsc-input:focus {
+    transition: 0.3s ease-out !important;
+    border: 4px solid #199E79 !important;
+}
+
+.gsc-input-box {
+    background-color: #3a3b3e !important;
+    border: none !important;
+}
+
+.gscb_a {
+    color: #199E79 !important;
+}
+
+.gscb_a:hover {
+    color: #d62828 !important;
+}
+
+.gsc-completion-selected:hover {
+    background-color: #3a3b3e !important;
+    color: #199E79 !important;
+    border-radius: 10px !important;
+}
+
+.gsc-completion-container {
+    background-color: #199E79 !important;
+    color: #3a3b3e !important;
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.gsc-search-button-v2 {
+    border: none !important;
+    background-color: #199E79 !important;
+    color: #199E79 !important;
+    height: 48px !important;
+    border-radius: 30px !important;
+    width: 70px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.ftr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline;
+    position: fixed;
+    background-color: #199E79;
+    color: #3a3b3e;
+    height: 60px;
+    width: 100vw;
+    bottom: 0px;
+}
+
+.modal-content {
+    background-color: #3a3b3e;
+    margin: 15% auto;
+    padding: 10px;
+    border: 4px solid #199E79;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.eMessage {
+    font-size: 30px;
+    text-align: center;
+}
+
+.eMessageSm {
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    transition: transform .2s;
+    text-decoration: none;
+    color: #3a3b3e;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+}
