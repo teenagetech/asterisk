@@ -6,6 +6,58 @@
 #3a3b3e
 */
 
+.gsc-control-cse {
+    position: relative !important;
+    overflow-y: auto !important;
+    max-height: 90vh !important;
+    z-index: 0 !important;
+    margin-bottom: 0 !important;
+    scroll-behavior: smooth !important;
+    width: 100% !important;
+}
+.gsc-results-wrapper-overlay {
+    overflow: visible !important;
+}
+
+.logo1 {
+    position: absolute;
+    top: 14px;
+    width: 150px;
+    padding-left: 20px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content .gsc-search-button-v2 {
+    border: none !important;
+    background-color: #199E79 !important;
+    color: #199E79 !important;
+    height: 28px !important;
+    border-radius: 30px !important;
+    width: 60px !important;
+    padding-left: 25px !important;
+}
+
+.content .gsc-input {
+    caret-color: #199E79 !important;
+    text-align: left !important;
+    font-family: 'Avenir' !important;
+    border: none !important;
+    height: 28px !important;
+    width: 50vw !important;
+    font-size: 22px !important;
+    border-radius: 30px !important;
+    outline: none !important;
+    padding-left: 20px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.content {
+    padding-top: 80px;
+    text-align: center;
+}
+
 @media screen and (max-width: 500px) {
     .logo, .logoU {
         width: 95vw;
@@ -99,7 +151,7 @@ body {
     font-family: 'JosefinSans-VariableFont_wght', sans-serif;
 }
 
-.gsc-input {
+.mainbox .gsc-input {
     caret-color: #199E79 !important;
     text-align: left !important;
     font-family: 'Avenir' !important;
@@ -146,7 +198,7 @@ body {
     border-radius: 10px !important;
 }
 
-.gsc-search-button-v2 {
+.mainbox .gsc-search-button-v2 {
     border: none !important;
     background-color: #199E79 !important;
     color: #199E79 !important;
