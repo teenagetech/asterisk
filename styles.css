@@ -9,14 +9,17 @@
 .gsc-control-cse {
     position: relative !important;
     overflow-y: auto !important;
-    max-height: 90vh !important;
+    max-height: 80vh !important;
     z-index: 0 !important;
-    margin-bottom: 0 !important;
+    padding-bottom: 60px !important;
     scroll-behavior: smooth !important;
     width: 100% !important;
 }
 .gsc-results-wrapper-overlay {
     overflow: visible !important;
+}
+.gcsc-find-more-on-google-root {
+    display: none !important;
 }
 
 .logo1 {
@@ -37,11 +40,14 @@
     width: 60px !important;
     padding-left: 25px !important;
 }
+.content .gsc-search-button {
+    margin-right: 60px !important;
+}
 
 .content .gsc-input {
     caret-color: #199E79 !important;
     text-align: left !important;
-    font-family: 'Avenir' !important;
+    font-family: 'Rubik' !important;
     border: none !important;
     height: 28px !important;
     width: 50vw !important;
@@ -108,15 +114,13 @@
     bottom: 70%;
     height: auto;
 }
-@font-face {
-    font-family: 'JosefinSans-VariableFont_wght';
-    src: url('JosefinSans-VariableFont_wght.ttf') format('truetype');
-}
 
-@font-face {
-    font-family: 'Avenir';
-    src: url('Avenir.ttc') format('truetype');
-}
+main {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
 .topText {
     text-align: center;
 }
@@ -127,7 +131,7 @@
     margin-right: 20px;
 }
 html {
-    font-family: 'JosefinSans-VariableFont_wght';
+    font-family: 'Rubik';
     background-color: #3a3b3e;
     text-decoration: none;
     color: #FFFFFF;
@@ -148,13 +152,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'JosefinSans-VariableFont_wght', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .mainbox .gsc-input {
     caret-color: #199E79 !important;
     text-align: left !important;
-    font-family: 'Avenir' !important;
+    font-family: 'Rubik' !important;
     border: none !important;
     height: 48px !important;
     width: 70vw !important;
@@ -179,10 +183,18 @@ body {
 
 .gscb_a {
     color: #199E79 !important;
+    -webkit-transition: color 0.4s all !important;
+    -moz-transition: color 0.4s all !important;
+    -o-transition: color 0.4s all !important;
+    transition: color 0.4s all !important;
 }
 
 .gscb_a:hover {
     color: #d62828 !important;
+    -webkit-transition: color 0.4s all !important;
+    -moz-transition: color 0.4s all !important;
+    -o-transition: color 0.4s all !important;
+    transition: color 0.4s all !important;
 }
 
 .gsc-completion-selected:hover {
@@ -278,4 +290,12 @@ li {
     align-items: center;
     list-style-type: none;
     text-align: center;
+}
+
+footer {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
 }
