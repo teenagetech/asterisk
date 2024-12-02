@@ -34,6 +34,20 @@
     background-repeat: no-repeat !important;
 }
 
+.gsc-search-button.gsc-search-button-v2:hover {
+    display: block !important;
+    font-size: 16px !important;
+    background-position-x: center;
+    background-position-y: center;
+    border: none !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    background-image: url('magnifyingglassfocus.svg');
+    background-size: 20px !important;
+    background-repeat: no-repeat !important;
+}
+
 .gsc-search-button.gsc-search-button-v2 svg {
     fill: none !important;
 }
@@ -80,14 +94,18 @@ td.gssb_a {
     padding-bottom: 6px !important;
 }
 
+@font-face {
+    font-family: 'Croogla';
+    src: url('Croogla.ttf') format('truetype');
+}
 
 .logo1 {
-    position: absolute;
-    top: 14px;
-    width: 150px;
+    position: fixed;
+    top: -7px;
+    width: 220px;
     padding-left: 20px;
     height: auto;
-    margin-bottom: 20px;
+    display: flex !important;
 }
 
 .content .gsc-search-button-v2 {
@@ -163,6 +181,8 @@ td.gssb_a {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
+    width: 90vw;
+    max-width: 800px;
     padding: 0;
     margin: auto;
     bottom: calc(50vh + 50px);
@@ -383,7 +403,7 @@ li {
 }
 
 footer {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Croogla", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 20px;
