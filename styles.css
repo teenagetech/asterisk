@@ -219,6 +219,10 @@ td.gssb_a {
     height: auto;
 }
 
+.gs-captcha-info-link {
+    display: none !important;
+}
+
 .logoU {
     display: block;
     margin-left: auto;
