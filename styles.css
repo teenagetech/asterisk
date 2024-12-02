@@ -11,9 +11,9 @@
     overflow-y: auto !important;
     max-height: 80vh !important;
     z-index: 0 !important;
-    padding-bottom: 60px !important;
+    padding-bottom: 70px !important;
     scroll-behavior: smooth !important;
-    width: 100% !important;
+    width: 98% !important;
 }
 
 .gsc-results-wrapper-overlay {
