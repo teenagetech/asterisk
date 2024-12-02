@@ -10,18 +10,23 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script async src="https://cse.google.com/cse.js?cx=75eec7b0a55db40e2"></script>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://asterisk.owen.uno" />
+    <meta property="og:title" content="Asterisk Search" />
+    <meta property="og:description" content="Asterisk Search: Your search, your way." />
+    <meta property="og:image" content="https://asterisk.owen.uno/Asterisk.png" />
 </head>
 <body>
-    <img class="logo" src="Asterisk.svg" alt="Asterisk logo" draggable="false">
-    <script async src="https://cse.google.com/cse.js?cx=75eec7b0a55db40e2"></script>
+    <img class="logo" src="Asterisk.svg" alt="Asterisk logo" draggable="false" oncontextmenu="return false;">
     <div class="mainbox">
     <div class="gcse-searchbox-only" data-resultsUrl="search"></div>
     </div>
     <div id="erSize" class="modal">
       <div class="modal-content">
-          <p class="eMessage">⚠️Your browser size is unsupported!</p>
-          <p class="eMessageSm">Please resize your browser window to continue to Asterisk Search.</p>
+          <p class="eMessage">Your browser size is unsupported!</p>
+          <p class="eMessageSm">Please resize your browser window or rotate your device to use Asterisk Search.</p>
       </div>
   </div>
     <footer class="ftr">
@@ -29,7 +34,7 @@
       <ul>
         <span>
         <li>
-       <a href="About.html">About Asterisk</a>
+       <a href="about.html">About Asterisk</a>
         </li>
         </span>
       </ul>
@@ -37,9 +42,7 @@
   </ul>
   </nav>
   </footer>
-    <script>
-        document.getElementById("gsc-input").title = "Asterisk Search";
-    </script>
     <script src="windowError.js"></script>
+    <script type="module" src="firebaseconfig.js"></script>
 </body>
 </html>
