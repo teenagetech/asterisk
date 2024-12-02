@@ -20,7 +20,38 @@
     overflow: visible !important;
 }
 
-.gcsc-more-maybe-branding-root {
+.gsc-search-button.gsc-search-button-v2, .gsc-search-button.gsc-search-button-v2:hover {
+    display: block !important;
+    font-size: 16px !important;
+    background-position-x: center;
+    background-position-y: center;
+    border: none !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    background-image: url('magnifyingglass.svg');
+    background-size: 20px !important;
+    background-repeat: no-repeat !important;
+}
+
+.gsc-search-button.gsc-search-button-v2 svg {
+    fill: none !important;
+}
+
+td.gssb_a {
+    border: none !important;
+}
+
+.gsc-cursor-chevron {
+    fill: #199E79 !important;
+}
+
+.gsc-cursor-next-page {
+    color: #199E79 !important;
+}
+
+.gcsc-more-maybe-branding-root,
+.gcsc-find-more-on-google-root {
     display: none !important;
 }
 
@@ -30,6 +61,7 @@
     color: #3a3b3e !important;
     border: none;
 }
+
 .gsc-option-menu {
     border-radius: 10px !important;
 }
@@ -224,7 +256,8 @@ body {
     font-family: 'Rubik', sans-serif !important;
 }
 
-.gsc-option-menu-container, .gsc-selected-option {
+.gsc-option-menu-container,
+.gsc-selected-option {
     font-weight: 600 !important;
 }
 
