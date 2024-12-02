@@ -15,12 +15,39 @@
     scroll-behavior: smooth !important;
     width: 100% !important;
 }
+
 .gsc-results-wrapper-overlay {
     overflow: visible !important;
 }
-.gcsc-find-more-on-google-root {
+
+.gcsc-more-maybe-branding-root {
     display: none !important;
 }
+
+.gsc-selected-option-container.gsc-inline-block {
+    background-color: #FFFFFF !important;
+    border-radius: 10px;
+    color: #3a3b3e !important;
+    border: none;
+}
+.gsc-option-menu {
+    border-radius: 10px !important;
+}
+
+.gsc-option-menu-item.gsc-option-menu-item-highlighted {
+    background-color: #3a3b3e !important;
+    color: #FFFFFF !important;
+}
+
+.gsc-option-menu-container.gsc-inline-block {
+    padding-left: 20px !important;
+}
+
+.gs-title {
+    text-align: left !important;
+    padding-bottom: 6px !important;
+}
+
 
 .logo1 {
     position: absolute;
@@ -40,6 +67,7 @@
     width: 60px !important;
     padding-left: 25px !important;
 }
+
 .content .gsc-search-button {
     margin-right: 60px !important;
 }
@@ -65,13 +93,17 @@
 }
 
 @media screen and (max-width: 500px) {
-    .logo, .logoU {
+
+    .logo,
+    .logoU {
         width: 95vw;
     }
 }
 
 @media screen and (min-width: 500px) {
-    .logo, .logoU {
+
+    .logo,
+    .logoU {
         width: 500px;
     }
 }
@@ -104,6 +136,7 @@
     bottom: calc(50vh + 50px);
     height: auto;
 }
+
 .logoU {
     display: block;
     margin-left: auto;
@@ -116,26 +149,30 @@
 }
 
 main {
-    font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif !important;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
-  }
+}
+
 .topText {
     text-align: center;
 }
+
 .title {
     text-align: center;
     display: block;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 html {
-    font-family: 'Rubik';
+    font-family: 'Rubik' !important;
     background-color: #3a3b3e;
     text-decoration: none;
     color: #FFFFFF;
 }
+
 body {
     overflow: hidden;
     -ms-overflow-style: none;
@@ -152,7 +189,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif !important;
 }
 
 .mainbox .gsc-input {
@@ -169,6 +206,26 @@ body {
     padding-right: 10px !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+
+.gsc-cursor-box.gs-bidi-start-align {
+    text-align: center !important;
+}
+
+.gsc-inline-block .gsc-option-menu-container {
+    background-color: #199E79 !important;
+}
+
+.gsc-webResult,
+.gs-webResult,
+.gsc-table-result,
+.gsc-result-info,
+.gsc-option-menu-container {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.gsc-option-menu-container, .gsc-selected-option {
+    font-weight: 600 !important;
 }
 
 .gsc-input:focus {
@@ -255,7 +312,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .eMessage {
