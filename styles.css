@@ -117,7 +117,7 @@ td.gssb_a {
     position: fixed;
     top: -7px;
     width: 220px;
-    padding-left: 20px;
+    margin-left: 20px;
     height: auto;
     display: flex !important;
 }
