@@ -15,6 +15,32 @@
     width: 96% !important;
 }
 
+.gs-spelling {
+    color: #F6F8F2 !important;
+}
+
+.gsc-tabsArea {
+    border-color: #199E79 !important;
+}
+
+.gsc-above-wrapper-area {
+    border-color: #199E79 !important;
+}
+
+.gs-spelling a {
+    color: #199E79 !important;
+    text-decoration: none !important;
+    transition: 0.3s;
+    border-bottom: 1px dotted transparent;
+  }
+  .gs-spelling a:hover {
+    color: #199E79 !important;
+    text-decoration: none !important;
+    transition: 0.3s;
+    border-width: 20px;
+    border-bottom: 1px dotted #199E79;
+  }
+
 .gsc-results-wrapper-overlay {
     overflow: visible !important;
 }
