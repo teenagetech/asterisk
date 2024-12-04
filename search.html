@@ -37,6 +37,18 @@
         </nav>
     </footer>
     <script type="module" src="firebaseConfig.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        let query = urlParams.get('q');
+        if (!query) {
+            const hashParams = new URLSearchParams(window.location.hash.replace('#', ''));
+            query = hashParams.get('gsc.q');
+        }
+        if (query) {
+            document.title = `${decodeURIComponent(query)} - Asterisk Search`;
+        }
+    </script>
+    
 </body>
 
 </html>
